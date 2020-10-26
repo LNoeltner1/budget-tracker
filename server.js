@@ -18,6 +18,7 @@ app.use(express.static("public"));
 mongoose.connect("mongodb://localhost/budget-tracker", {
   useNewUrlParser: true,
   useFindAndModify: false,
+  useUnifiedTopology: true,
 });
 
 // routes
