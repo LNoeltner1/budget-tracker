@@ -2,7 +2,7 @@
 
 ## Title
 
-Spending Visualizer App
+Spending Visualizer
 
 ## Screenshot
 
@@ -10,7 +10,7 @@ Spending Visualizer App
 
 ## Description
 
-This project is a budget-tracking app that will work regardless of whether or not the user's machine is connected to the internet. If the user is not connected to the internet, they will still be able to view their spending and income offline. Additionally, the user can add new transactions to the app in offline mode and these transactions will remain visible after reconnecting to the network. The Atlas database in conjunction with the Morgan logger npm package allows the user's data to persist over reloads, cache clearing, and sessions. They can use it any time, anywhere.
+This project is a budget-tracking app that will work regardless of whether or not the user's machine is connected to the internet. The MongoDB database in conjunction with the Morgan logger allows the user's data to persist over reloads, cache clearing, and sessions. They can use it any time, anywhere.
 
 The user will first land on a screen with an input for the name of the transaction, an input for the cost of the transaction, a list of previous transactions, and a graph below the list, showing the changes in the total amount of money the user has. When they add a name and a value to a transaction, they will have the option to 'Add Funds' if they are expecting to receive money and 'Subtract Funds' if they are expecting to spend money. The changes to the graph will be made immediately upon clicking one of these buttons.
 
